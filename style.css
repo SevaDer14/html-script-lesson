@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4em;
+  gap: 1em;
+}
+
+p {
+  font-size: large;
+  color: #555;
+}
+
+.result {
+  font-weight: bold;
+  color: black;
+}
+
+.label {
+  font-size: smaller;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  gap: 0.5em;
+  align-items: center;
+}
+
+label {
+  flex-basis: 35%;
+}
+
+input {
+  flex-grow: 1;
+}
